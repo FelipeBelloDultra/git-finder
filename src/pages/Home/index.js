@@ -9,8 +9,6 @@ const Home = () => {
     // CODE
   }, []);
 
-  console.log(repos);
-
   return (
     <div className="container">
       <main className="search-group">
