@@ -1,0 +1,74 @@
+.container {
+  width: 900px;
+  margin: 60px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+}
+
+.search-group {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+}
+
+.search-group span {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  color: #181622;
+}
+
+.button-group {
+  margin-top: 50px;
+  width: 400px;
+  display: flex;
+}
+
+.button-group input {
+  width: auto;
+  flex: 1;
+  height: 45px;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.button-group button {
+  width: 100px;
+  height: 45px;
+  margin-left: 10px;
+  background-color: #181622;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  transition: all 0.2s;
+}
+
+.button-group button:hover {
+  opacity: 0.8;
+}
+
+.list-repos {
+  width: auto;
+}
+
+.repo-wrapper {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.repo-wrapper a {
+  padding: 5px 0;
+  font-weight: 500;
+  display: inline-block;
+  color: #181622;
+  text-decoration: none;
+}
+
+.repo-wrapper a:hover {
+  text-decoration: underline;
+}
